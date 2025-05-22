@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "b0a115c4-c12f-4928-ad0f-36e2cc1acf1c"  # Replace with your AI21 API key
+API_KEY = "enter your API key here"  # Replace with your AI21 API key
 API_URL = "https://api.ai21.com/studio/v1/chat/completions"
 
 headers = {
