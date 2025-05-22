@@ -12,10 +12,9 @@ def chat_with_ai21(conversation):
     payload = {
         "model": "jamba-mini",
         "messages": conversation,
-        "max_tokens": 150,
+        "max_tokens": 550,
         "temperature": 0.7,
         "top_p": 1.0,
-        "stop": ["\n"]
     }
     response = requests.post(API_URL, headers=headers, json=payload)
     if response.status_code == 200:
